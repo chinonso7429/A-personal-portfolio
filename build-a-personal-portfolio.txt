@@ -1,0 +1,44 @@
+** start of index.html **
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section id="welcome-section">Welcome
+        <h1>Fullstack Web developer</h1>
+      </section>
+      <section id="project-section">Projects
+        <h2 class="project-tile"></h2>
+        <a></a>
+        <navbar id="navbar">
+          <a href="#project-section"></a>
+        </navbar>
+        <a id="profile-link" target="_blank"></a>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+@media (max-width: 768px) {
+  body {
+    background-color: #f0f0f0;
+    font-size: 16px;
+  }}
+  navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+** end of styles.css **
+
